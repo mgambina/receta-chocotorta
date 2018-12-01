@@ -1,0 +1,36 @@
+.cuadrado{
+    width:40%;
+    height:150px;
+    color: white;
+    border: 5px solid black;
+    font-size: 23px;
+    float:left
+}
+
+@media screen and (max-width: 1000px) {
+  
+    #cuadrado1 {
+      background-color: red;
+    }
+}
+
+@media screen and (max-width: 900px) {
+  
+    #cuadrado2 {
+      background-color: blue;
+    }
+}
+
+@media screen and (max-width: 800px) {
+  
+    #cuadrado3 {
+      background-color: green;
+    }
+}
+
+@media screen and (max-width: 700px) {
+  
+    #cuadrado4 {
+      background-color: purple;
+    }
+}
